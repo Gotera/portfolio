@@ -3,3 +3,20 @@
 * {
     font-family: 'Roboto','Nunito', sans-serif;
 }
+
+::-webkit-scrollbar{
+    background-color: #27304F;
+    color: #27304F;
+    width: 15px;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #0F193B;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #27304F;
+    color: #27304F;
+}

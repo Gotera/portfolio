@@ -2,11 +2,12 @@ import { SectionAbout, AboutInformation, AboutPhoto, AboutContainer, TextAbout, 
 
 function About() {
   return (
+    
     <SectionAbout>
       <AboutContainer>
         <AboutInformation>
           <H1>
-            About Me <Bolded>.</Bolded>
+            Sobre Mim <Bolded>.</Bolded>
           </H1>
           <TextAbout>
             Olá! Meu nome é Orlando Medeiros da Silva e eu adoro criar coisas para a internet. Desde criança sempre me interessei em jogos, musicas, séries e filmes, por estar muito conectado a essa "realidade" virtual, me surgiu a vontade de bisbilhotar esse mundo gigantesco que se chama programação <Bolded>- eu detestei -</Bolded>
@@ -23,7 +24,6 @@ function About() {
 
         <AboutPhoto>
         </AboutPhoto>
-        
       </AboutContainer>
     </SectionAbout>
     

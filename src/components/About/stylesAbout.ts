@@ -1,6 +1,4 @@
-
 import styled from 'styled-components'
-
 
 export const SectionAbout = styled.div`
     height: 100vh;
@@ -14,6 +12,7 @@ export const SectionAbout = styled.div`
     @media (max-width: 768px) {
         padding: 0px 0px;
     }
+
 `
 export const AboutContainer = styled.div`
     height: auto;
@@ -21,7 +20,6 @@ export const AboutContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-
     @media (max-width: 768px) {
         padding: 0px 0px;
     }

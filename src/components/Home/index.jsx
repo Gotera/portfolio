@@ -8,7 +8,7 @@ function Home() {
         <SectionHome>
             <HomeInformation>
                 <TitleHome>
-                    Hi, my name is 
+                    Olá, meu nome é
                 </TitleHome>
                 <Typewriter 
                     onInit={(typewriter) => {
