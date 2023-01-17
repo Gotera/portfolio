@@ -15,8 +15,14 @@
     z-index: -2;
   }
 
-@media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .Typewriter{  
         font-size: 40px;
+    }
+
+    #MyVideo {
+        height: 50%;
+        width: 50%;
+        position: fixed;
     }
 }

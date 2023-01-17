@@ -9,7 +9,9 @@ export const SectionHome = styled.div`
     background-size: cover;
 
     @media (max-width: 768px) {
-        padding: 200px 25px;
+        padding: 255px 30px;
+        height: calc(100% + 100px);
+        width: 100%;
     }
 `
 
@@ -22,8 +24,8 @@ export const HomeInformation = styled.div`
 
 export const TitleHome = styled.h1`
     font-size: 16px;
+    color: #193FD5;
 `
-
 
 
 

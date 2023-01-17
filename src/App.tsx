@@ -5,12 +5,10 @@ import Header  from './components/Nav/'
 import Works from './components/Works'
 import BackgroundDivider from './components/DividerComponent'
 import Contact from './components/Contact';
-import { SubSocial } from './components/SubSocial/stylesSubSocial';
 
 function App() {
   return (
-    <div>
-      <SubSocial />
+    <div className='Container'>
       <Header />
       <Home />
       <About />

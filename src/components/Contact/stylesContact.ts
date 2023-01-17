@@ -8,6 +8,7 @@ export const SectionContact = styled.div`
     align-items: center;
     background-color: #0F193B;
     padding: 0px 150px;
+    
 
     display: flex;
     justify-content: center;

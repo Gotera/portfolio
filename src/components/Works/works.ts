@@ -11,8 +11,10 @@ export const SectionWorks = styled.div`
     padding: 0px 150px ;
     padding-bottom: 30px;
 
-    @media (max-width: 768px) {
-        padding: 0px 0px;
+    @media only screen and (max-width: 768px) {
+        padding: 30px;
+        display: flex;
+
     }
 `
 
@@ -20,6 +22,10 @@ export const H1 = styled.h1`
     color: #8892B0;
     padding-top: 20px;
     font-size: 40px;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 25px;
+    }
 `
 
 export const H2 = styled.h2`
@@ -39,35 +45,43 @@ export const WorksContainer = styled.div`
 
 export const Box = styled.div`
     width: 100%;
-    height: 150px;
+    height: 100%;
     overflow: hidden;
     border-radius: 5px;
+    position: relative;
+    
+    &:nth-child(2) {
+        display: flex;
+        justify-content: end;
+        
+    }
 
+`
 
+export const ContainerBorder = styled.div`
+    position: absolute;
+    border-bottom: 3px solid #1A41DC;
     img {
         object-fit: cover;
         width: 300px;
     }
 
+
     &:nth-child(1) {
         display: flex;
     }
 
-    &:nth-child(2) {
-        display: flex;
-        justify-content: end;
-    }
+
 
     &:nth-child(3) {
         display: flex;
-        border: 1px solid red;
     }
 `
 
 export const ContentDiv = styled.div`
     padding: 8px;
     background-color: #0C142F;
-    
+
     h3 {
         color: #8892B0;
     }

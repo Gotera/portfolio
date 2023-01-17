@@ -4,8 +4,6 @@ export const Nav = styled.nav`
   width: 100%;
   height: 15vh;
   color: #FFFFFE;
-  /* background-color: #FFFFFE;
-  border-bottom: 2px solid #47B2AC; */
   padding: 0 150px;
   display: flex;
   justify-content: space-between;
@@ -16,12 +14,15 @@ export const Nav = styled.nav`
     padding: 18px 0;
   }
 
-  .dot {
-    
+  img {
+    width: 250px;
   }
 
-  @media (max-width: 768px) {
-    padding: 0 25px;
+    @media only screen and (max-width: 768px) {
+      height: 100%;
+      width: 100%;
+      padding: 0 30px;
+
   }
 `;
 
@@ -30,9 +31,31 @@ export const Ul = styled.ul<{ open: boolean }>`
   align-items: center;
   display: flex;
   flex-flow: row nowrap;
+
   li {
     padding: 18px 10px;
+
+    a {
+      text-decoration: none;
+      color: #8892B0;
+    }
   }
+
+ 
+.button-23 {
+  background-color: black;
+  color: #1A41DC;
+  border: 1px solid #1A41DC;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 13px 23px;
+  text-decoration: none;
+  width: auto;
+}
+
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: #0D2538;
@@ -49,7 +72,7 @@ export const Ul = styled.ul<{ open: boolean }>`
       color: #fff;
     }
   }
-`;
+`
 
 export const StyledBurguer = styled.div<{ open: boolean }>`
   width: 2rem;
@@ -57,7 +80,7 @@ export const StyledBurguer = styled.div<{ open: boolean }>`
   position: fixed;
   top: 15px;
   right: 20px;
-  z-index: 20;
+  z-index: 2;
   display: none;
 
   @media (max-width: 768px) {

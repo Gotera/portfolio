@@ -1,9 +1,10 @@
-import { SectionAbout, AboutInformation, AboutPhoto, AboutContainer, TextAbout, H1, Bolded, Refer }  from './stylesAbout.ts';
+import { SectionAbout, AboutInformation, AboutPhoto, AboutContainer, TextAbout, H1, Bolded, Refer, ContainerPhoto }  from './stylesAbout.ts';
+import aboutBox from './IMG0201220WA0002.jpg'
 
 function About() {
   return (
     
-    <SectionAbout>
+    <SectionAbout id='about'>
       <AboutContainer>
         <AboutInformation>
           <H1>
@@ -22,8 +23,16 @@ function About() {
           </TextAbout>
         </AboutInformation>
 
-        <AboutPhoto>
-        </AboutPhoto>
+        <ContainerPhoto>
+
+          <div className='AboutPhoto'>
+            {/* <img src={ aboutBox } alt="My Face"/> */}
+          </div>
+          <div className="box"/>
+
+        </ContainerPhoto>
+
+        
       </AboutContainer>
     </SectionAbout>
     
