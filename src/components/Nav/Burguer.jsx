@@ -14,7 +14,7 @@ const Burguer = () => {
       </StyledBurguer> 
       <RightNav open={ open }/>
     </>
-  ) 
+  )
 }
 
 export default Burguer

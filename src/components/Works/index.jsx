@@ -15,7 +15,7 @@ const Works = () => {
         <H1 data-aos="fade-up"> Alguns Projetos Em Que Trabalhei </H1>
         <H2 data-aos="fade-up"> Vindo de uma Galaxia não muito distante</H2>
         <WorksContainer >
-            <Box data-aos="fade-right">
+            <Box data-aos="fade-up">
               <ContainerBorder>
               <img src="https://etgeekera.files.wordpress.com/2015/11/fallout-4-please-stand-by.jpg"/>
                 <ContentDiv >
@@ -24,7 +24,7 @@ const Works = () => {
                 </ContentDiv>
               </ContainerBorder>
             </Box>
-            <Box data-aos="fade-left">
+            <Box data-aos="fade-up">
               <ContainerBorder>
 
                 <ContentDiv>
@@ -34,7 +34,7 @@ const Works = () => {
                 <img src="https://etgeekera.files.wordpress.com/2015/11/fallout-4-please-stand-by.jpg"/>
               </ContainerBorder>
             </Box>
-            <Box data-aos="fade-right">
+            <Box data-aos="fade-up">
               <ContainerBorder>
                 <img src="https://etgeekera.files.wordpress.com/2015/11/fallout-4-please-stand-by.jpg"/>
                 <ContentDiv>

@@ -1,6 +1,5 @@
 import Typewriter from 'typewriter-effect'
-import './typeWriterStilization.css'
-import { SectionHome, HomeInformation, TitleHome }  from './stylesHomes';
+import { SectionHome, HomeInformation, TitleHome }  from './stylesHome';
 import videoBg from './SpaceShuttle.mp4'
 
 function Home() {

@@ -15,6 +15,7 @@ export const SectionContact = styled.div`
     flex-direction: column;
 
     @media (max-width: 768px) {
+        max-width: 100vh;
         padding: 0px 0px;
     }
 
@@ -32,6 +33,7 @@ export const SectionContact = styled.div`
     h4 {
         padding-left: 4px;
     }
+
 `
 
 export const SocialContainer = styled.div`
@@ -48,6 +50,23 @@ export const SocialContainer = styled.div`
     a:hover {
         color: #1a41dc;
     }
-
 `
 
+export const ToImg = styled.div`
+        background-color: #0F193B;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media (max-width: 768px) {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+`

@@ -1,12 +1,17 @@
-import { SectionAbout, AboutInformation, AboutPhoto, AboutContainer, TextAbout, H1, Bolded, Refer, ContainerPhoto }  from './stylesAbout.ts';
-import aboutBox from './IMG0201220WA0002.jpg'
+import { SectionAbout, AboutInformation, AboutContainer, TextAbout, H1, Bolded, Refer, ContainerPhoto }  from './stylesAbout.ts';
+import aboutBox from './baixa2023.jpg'
+import { useEffect } from 'react';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+    },[])
   return (
-    
     <SectionAbout id='about'>
       <AboutContainer>
-        <AboutInformation>
+        <AboutInformation data-aos="fade-up">
           <H1>
             Sobre Mim <Bolded>.</Bolded>
           </H1>
@@ -23,10 +28,10 @@ function About() {
           </TextAbout>
         </AboutInformation>
 
-        <ContainerPhoto>
+        <ContainerPhoto data-aos="fade-up">
 
           <div className='AboutPhoto'>
-            {/* <img src={ aboutBox } alt="My Face"/> */}
+            <img src={ aboutBox } alt="My Face"/>
           </div>
           <div className="box"/>
 

@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const SectionAbout = styled.div`
-    box-sizing: border-box;
     height: 100vh;
     width: auto;
     display: flex;
@@ -9,13 +8,13 @@ export const SectionAbout = styled.div`
     align-items: center;
     background-color: #0F193B;
     padding: 0px 150px;
+    z-index: 3;
 
     @media only screen and (max-width: 768px) {
-        height: 100%;
-        width: 100%;
+        max-width: 100vh;
+        height: 1100px;
         padding: 30px;
     }
-
 `
 export const AboutContainer = styled.div`
     height: auto;
@@ -23,11 +22,13 @@ export const AboutContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 3;
 
     @media only screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 1200px;
+
     }
 `
 
@@ -38,6 +39,7 @@ export const AboutInformation = styled.div`
     font-size: 20px;
     line-height: 1.3;
     color: #8892B0;
+    z-index: 3;
 
     @media only screen and (max-width: 768px) {
         padding-right: 0px;
@@ -46,7 +48,6 @@ export const AboutInformation = styled.div`
 `
 
 export const TextAbout = styled.p`
-
     padding-bottom: 25px;
 
     @media (max-width: 768px) {
@@ -56,10 +57,12 @@ export const TextAbout = styled.p`
 `
 
 export const ContainerPhoto = styled.div`
+        width: 300px;
+        height: 300px;
+
     .AboutPhoto {
         width: 300px;
         height: 300px;
-        background-color: black;
         position: absolute;
         
         img {
@@ -72,13 +75,35 @@ export const ContainerPhoto = styled.div`
         width: 300px;
         height: 300px;
         margin: 45px;
-        border: 1px solid red;
-        background-color: pink;
+        border: 3px solid #1a41dc;
+        background-color: #0F193B;
     }
+
+    @media (max-width: 768px) {
+        width: 250px;
+        height: 250px;
+
+        .AboutPhoto {
+            width: 250px;
+            height: 250px;
+        
+        img {
+            width: 250px;
+            height: 250px;
+        }
+    }
+    .box {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+    }
+    }
+
 `
 
 export const H1 = styled.h1`
     padding-bottom: 30px;
+    z-index: 3;
 `
 
 export const Bolded = styled.b`

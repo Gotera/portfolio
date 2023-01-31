@@ -14,7 +14,9 @@ export const SectionWorks = styled.div`
     @media only screen and (max-width: 768px) {
         padding: 30px;
         display: flex;
-
+        max-width: 100vh;
+        height: 100%;
+        justify-content: space-between;
     }
 `
 
@@ -24,7 +26,8 @@ export const H1 = styled.h1`
     font-size: 40px;
 
     @media only screen and (max-width: 768px) {
-        font-size: 25px;
+        font-size: 35px;
+        text-align: center;
     }
 `
 
@@ -41,6 +44,8 @@ export const WorksContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+
 `
 
 export const Box = styled.div`
@@ -53,28 +58,42 @@ export const Box = styled.div`
     &:nth-child(2) {
         display: flex;
         justify-content: end;
-        
+
+        @media only screen and (max-width: 768px) {
+            display: flex;
+            justify-content: center;
+            
+        }
     }
 
+    @media only screen and (max-width: 768px) {
+            padding-bottom: 40px;
+            display: flex;
+            justify-content: center;
+        }
 `
 
 export const ContainerBorder = styled.div`
     position: absolute;
     border-bottom: 3px solid #1A41DC;
-    img {
-        object-fit: cover;
-        width: 300px;
-    }
+    
+        img {
+            object-fit: cover;
+            width: 300px;
+        }
 
+        &:nth-child(1) {
+            display: flex;
+        }
 
-    &:nth-child(1) {
+        &:nth-child(3) {
+            display: flex;
+        }
+
+    @media only screen and (max-width: 768px) {
         display: flex;
-    }
-
-
-
-    &:nth-child(3) {
-        display: flex;
+        flex-direction: column;
+        height: 400px;
     }
 `
 
@@ -90,5 +109,8 @@ export const ContentDiv = styled.div`
         padding-top: 10px;
         font-size: 15px;
         color: #8892B0;
+    }
+    @media only screen and (max-width: 768px) {
+
     }
 `

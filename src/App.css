@@ -4,12 +4,8 @@
     font-family: 'Roboto','Nunito', sans-serif;
 }
 
-@media (max-width: 768px) {
-    .Container {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-    }
+body {
+    background-color: black;
 }
 
 ::-webkit-scrollbar{
@@ -17,6 +13,8 @@
     color: #27304F;
     width: 15px;
     border-radius: 15px;
+
+    
 }
 
 ::-webkit-scrollbar-thumb{
@@ -29,3 +27,10 @@
     color: #27304F;
 }
 
+@media (max-width: 768px) {
+    .Container {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+}

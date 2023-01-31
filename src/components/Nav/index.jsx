@@ -1,6 +1,5 @@
 import Burguer from './Burguer';
-import { GoPrimitiveDot } from 'react-icons/go'
-import { Bolded, Nav }  from './stylesHeader';
+import { Nav }  from './stylesHeader';
 import logo from './logomy.png'
 
 function Header() {
